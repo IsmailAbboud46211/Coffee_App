@@ -21,7 +21,9 @@ class _AppWrapperState extends State<AppWrapper> {
     return BlocBuilder<StartAppCubit, StartAppState>(
       builder: (context, state) {
         if (state is SkiepedOnBording) {
-          return const HomeScreen();
+          //* when connect with api
+          //  return const HomeScreen();
+          return const OnBordingScreen();
         }
         return const OnBordingScreen();
       },

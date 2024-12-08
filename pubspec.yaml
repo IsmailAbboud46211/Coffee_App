@@ -10,22 +10,15 @@ environment:
 
 dependencies:
   awesome_dialog: ^3.2.1
-  salomon_bottom_bar: ^3.3.2
+  dio: ^5.7.0
   bloc: ^8.1.4
   build_runner: ^2.4.9
-  chat_bubbles: ^1.6.0
   colorize: ^3.0.0
-  conditional_builder_null_safety: ^0.0.6
   cupertino_icons: ^1.0.2
-  dio: ^5.4.3+1
-  fancy_shimmer_image: ^2.0.3
   flutter:
     sdk: flutter
   flutter_bloc: ^8.1.5
   flutter_native_splash: ^2.4.1
-  flutter_spinkit: ^5.2.1
-  flutter_svg: ^2.0.10+1
-  fluttertoast: ^8.2.5
   font_awesome_flutter: ^10.7.0
   google_fonts: ^6.2.1
   hexcolor: ^3.0.1
@@ -34,9 +27,7 @@ dependencies:
   hive_generator: ^2.0.1
   meta: ^1.10.0
   path_provider: ^2.1.3
-  shimmer: ^3.0.0
   smooth_page_indicator: ^1.1.0
-  stylish_bottom_bar: ^1.1.0
   url_launcher: ^6.3.0
 
 dev_dependencies:
@@ -50,3 +41,12 @@ flutter:
   assets:
     - assets/
     - assets/images/
+
+flutter_launcher_icons:
+  image_path: "assets/images/app_icon.png"
+  android: true
+  ios: true
+
+flutter_native_splash:
+  color: "#803D3B"
+  image: "assets/images/app_icon.png"
